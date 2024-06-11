@@ -9,9 +9,9 @@ def hello_world():
     if numero > 0:
     return "El número es positivo":
     elif numero == 0:
-    return "El número es cero"
+    return "El número es cero":
     else:
-    return 'Hello World!2'
+    return 'Hello World!2':
     
 if __name__ == '__main__':
     app.run()
