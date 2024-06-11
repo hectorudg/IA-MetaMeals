@@ -7,9 +7,9 @@ app = Flask(__name__)
 def hello_world():
     numero = random.randint(1, 10)
     if numero > 0:
-    return "El número es positivo"
+    return "El número es positivo":
     elif numero == 0:
-    rerturn("El número es cero")
+    return "El número es cero"
     else:
     return 'Hello World!2'
     
