@@ -8,9 +8,9 @@ def hello_world():
     numero = random.randint(1, 10)
     if numero > 0:
     return "El número es positivo"
-    elif numero == 1:
+    if numero == 1:
     return "El número es cero":
-    elif numero == 2:
+    if numero == 2:
     return 'Hello World!2'
     
 if __name__ == '__main__':
