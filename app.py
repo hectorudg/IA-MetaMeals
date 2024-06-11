@@ -9,7 +9,7 @@ def hello_world():
     if numero > 0:
     return "El número es positivo"
     if numero == 1:
-    return "El número es cero":
+    return "El número es cero"
     if numero == 2:
     return 'Hello World!2'
     
